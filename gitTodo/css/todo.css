@@ -1,0 +1,51 @@
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grid_container{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 5px;
+  row-gap: 5px;
+  margin-top: 10px;
+}
+.todo_container{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 5px;
+  row-gap: 5px;
+  margin-top: 10px;
+  align-items: center;
+}
+#todoText{
+  padding: 15px 5px;
+  font-size: 15px;
+}
+#todoDate{
+  cursor: pointer;
+  padding: 15px 5px;
+}
+.addBtn{
+  background: green;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+#todo_container > span{
+  font-size: 18px;
+}
+.deleteBtn{
+  background: darkred;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 0px;
+}
