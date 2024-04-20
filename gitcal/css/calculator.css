@@ -1,0 +1,40 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main{
+  border: 1px solid lightgray;
+  width: 350px;
+  border-radius: 10px;
+}
+.display{
+  margin: 20px;
+  width: 85%;
+  font-size: 50px;
+  padding: 0px 3px;
+}
+.ButtonContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  margin: 1px 10px;
+}
+.button{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin: 3px;
+  background: lightcoral;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+.button:hover{
+  background: lightpink;
+  color: #111;
+}
